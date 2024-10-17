@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Navigation Bar</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="nav-item" data-hover="Hard">Work</li>
+            <li class="nav-item" data-hover="Play Hard">Studios</li>
+            <li class="nav-item" data-hover="Yeah">Recognition</li>
+        </ul>
+    </nav>
+
+    <div>
+        <h1>hellow, buro here<br>We craft remarkable experiences<br>onscreen and paper</h1>
+    </div>
+
+    <div class="video-container">
+        <iframe 
+            id="youtube-video" 
+            width="560" 
+            height="315" 
+            src="https://burocratik.com/wp-content/uploads/2023/06/Buroreel2023-mobile.mp4#t=0.01" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <div class="video-overlay" id="video-overlay">Play the video</div>
+    </div>
+
+    <div>
+        <h1>1999 - 2024</h1>
+        <p> Two decades of branding by buro</p>
+        <p>Meet our brands</p>
+    </div>
+
+    <!-- Container for the two side-by-side videos -->
+    <div class="video-row">
+        <div class="video-container">
+            <iframe 
+                class="side-video" 
+                width="560" 
+                height="315" 
+                src="https://burocratik.com/wp-content/uploads/2022/08/sandclock-casestudy.mp4#t=0.01" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="video-overlay">Play the video</div>
+        </div>
+
+        <div class="video-container">
+            <iframe 
+                class="side-video" 
+                width="560" 
+                height="315" 
+                src="https://burocratik.com/wp-content/uploads/2022/09/hemato-buro.mp4#t=0.01" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+            <div class="video-overlay">Play the video</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
